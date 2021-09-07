@@ -1,7 +1,7 @@
 import React from "react";
 import { marginTop } from "../../Helpers/MarginTop";
 
-function HomeScreenCard(props) {
+function HomeScreenCard(props: any) {
   const { id, name } = props;
   const value = marginTop();
 
