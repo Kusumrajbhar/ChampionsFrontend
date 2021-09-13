@@ -1,13 +1,14 @@
-// import React from "react";
+import React from "react";
 import { marginTop } from "../../Helpers/MarginTop";
+import { homeCardProps } from "../../Interface/HomeScreen/HomeScreenInterface";
 
-function HomeScreenCard(props: any) {
+export const HomeScreenCard: React.FC<homeCardProps> = (props) => {
   const { id, name } = props;
   const value = marginTop();
 
   return (
     <>
-      <div key={id} className="ml-4">
+      <div className="ml-4">
         <img
           src={name}
           className={`card-image-${id}`}
@@ -17,6 +18,4 @@ function HomeScreenCard(props: any) {
       </div>
     </>
   );
-}
-
-export default HomeScreenCard;
+};
