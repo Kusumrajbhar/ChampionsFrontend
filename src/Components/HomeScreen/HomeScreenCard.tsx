@@ -10,7 +10,7 @@ function HomeScreenCard(props: any) {
       <div key={id} className="ml-4">
         <img
           src={name}
-          className={`cardimage-${id}`}
+          className={`card-image-${id}`}
           alt="img"
           style={{ marginTop: `${value}px` }}
         />

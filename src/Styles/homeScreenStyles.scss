@@ -17,7 +17,7 @@ $card-padding: 10px;
 }
 
 @each $oddnumber in $oddnumbers {
-  .cardimage-#{$oddnumber} {
+  .card-image-#{$oddnumber} {
     @include card-animation;
     box-shadow: 5px 5px 5px gray;
     animation: cardmoveodd 4s ease-out forwards;
