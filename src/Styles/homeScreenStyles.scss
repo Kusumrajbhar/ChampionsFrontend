@@ -7,11 +7,13 @@ $card-padding: 10px;
   color: palevioletred;
   font-family: $font_family;
 }
-.card-wrapper {
+.home-card-wrapper {
   display: flex;
   width: auto;
   height: 70vh;
   justify-content: center;
+  border: none;
+  margin: 10px;
 }
 
 @each $oddnumber in $oddnumbers {
@@ -54,7 +56,15 @@ $card-padding: 10px;
     opacity: 1;
   }
 }
-.cardwrap {
-  border: none;
-  margin: 10px;
+
+.logo-next {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.next {
+  border: 1px black solid;
+  color: white;
+  background-color: #ee2e2c;
+  border-radius: 50%;
 }

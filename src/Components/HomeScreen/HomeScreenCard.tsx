@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { marginTop } from "../../Helpers/MarginTop";
 
 function HomeScreenCard(props: any) {
@@ -7,7 +7,7 @@ function HomeScreenCard(props: any) {
 
   return (
     <>
-      <div key={id} className="card-wrapper">
+      <div key={id} className="ml-4">
         <img
           src={name}
           className={`cardimage-${id}`}
