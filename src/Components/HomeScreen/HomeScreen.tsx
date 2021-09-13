@@ -19,10 +19,13 @@ function HomeScreen() {
           Next {">>"}
         </button>
       </div>
+
       <Container>
         <Row>
           <Col md={{ span: 10, offset: 1 }}>
-            <h1 className="home-heading">Champions of the Week!!!</h1>
+            <h1 className="home-heading">
+              <span className="champions">Champions</span> of the Week!!!
+            </h1>
             <div className="home-card-wrapper">
               {HomeScreenImages.map((item) => {
                 return (

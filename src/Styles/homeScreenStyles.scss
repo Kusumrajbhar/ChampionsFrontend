@@ -4,7 +4,7 @@ $card-padding: 10px;
 
 .home-heading {
   text-align: center;
-  color: palevioletred;
+  color: rgb(5, 5, 5);
   font-family: $font_family;
 }
 .home-card-wrapper {
@@ -25,7 +25,7 @@ $card-padding: 10px;
 }
 
 @each $evennumber in $evennumbers {
-  .cardimage-#{$evennumber} {
+  .card-image-#{$evennumber} {
     @include card-animation;
     box-shadow: 5px 5px 5px gray;
     animation: cardmoveeven 4s ease-out forwards;
@@ -67,4 +67,7 @@ $card-padding: 10px;
   color: white;
   background-color: #ee2e2c;
   border-radius: 50%;
+}
+.champions {
+  color: #ee2e2c;
 }
